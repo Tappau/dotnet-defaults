@@ -1,0 +1,59 @@
+###############################################################################
+# Set default behavior to:
+#   automatically normalize line endings on check-in
+###############################################################################
+*           text=auto
+
+###############################################################################
+# Set file behavior to:
+#   treat as text
+###############################################################################
+*.cmd       text
+*.config    text
+*.cs        text diff=csharp
+*.csproj    text
+*.groovy    text
+*.json      text
+*.md        text
+*.proj      text
+*.projitems text
+*.props     text
+*.ps1       text
+*.resx      text
+*.shproj    text
+*.sln       text
+*.targets   text
+*.txt       text
+*.xlf       text
+*.xml       text
+
+
+###############################################################################
+# Set file behavior to:
+#   treat as text
+#   normalize to Windows-style line endings on check-in
+###############################################################################
+*.sln        text       eol=crlf
+
+###############################################################################
+# Set file behavior to:
+#   treat as text
+#   normalize to Unix-style line endings on check-in
+###############################################################################
+*.sh        text        eol=lf
+*.tf        text        eol=lf
+*.tfvars    text        eol=lf
+gradlew     eol=lf
+
+###############################################################################
+# Make sure jQuery files always have LF as line endings (to pass SRI checks)
+###############################################################################
+jquery*.js eol=lf
+jquery*.map eol=lf
+
+###############################################################################
+# Make sure bootstrap files always have LF as line endings (to pass SRI checks)
+###############################################################################
+bootstrap*.js eol=lf
+bootstrap*.map eol=lf
+bootstrap*.css eol=lf
