@@ -13,8 +13,6 @@
 *.cs        text diff=csharp
 *.csproj    text
 *.groovy    text
-*.json      text
-*.md        text
 *.proj      text
 *.projitems text
 *.props     text
@@ -40,7 +38,10 @@
 #   treat as text
 #   normalize to Unix-style line endings on check-in
 ###############################################################################
+*.json      text        eol=lf
+*.md        text        eol=lf
 *.sh        text        eol=lf
+*.ts        text        eol=lf
 *.tf        text        eol=lf
 *.tfvars    text        eol=lf
 gradlew     eol=lf
